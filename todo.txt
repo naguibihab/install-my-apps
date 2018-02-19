@@ -1,0 +1,38 @@
+--- Todo:
++ Download bootstrap
++ Download firebase
++ Setup firebase
++ Build the login screen, including the silly stuff
++ Add a table in the main page
++ Develop the suggestion box (Maybe chosen.js or another lib)
++ JS script to generate a batch file
+
+--- Process:
+1. Login via facebook or google
+2. Edit this table (name,download url) with your preferred applications
+3. Download the batch file
+
+- Firebase as a backend, vanilla js frontend.
+- Firebase structure:
+	users table
+		auth
+		apps
+	apps table
+		appname
+		latest url
+		
+- Frontend:
+	Login page
+		Facebook login
+		Gooogle login
+		Losers login (who don't have facebook or google)
+			Alert "You're telling me you don't have facebook or google accounts? Btn: 'Yes I am a social introvert loser'
+				Leads to a simple html page "Get off my site!"
+	Apps page
+		Table
+			Suggest as they type in the name of the app and if they select it then populate the name and value
+		Generate and download batch file
+
+
+
+		
